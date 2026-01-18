@@ -206,6 +206,35 @@ h1 {
     box-shadow: 0 20px 35px -5px rgba(99, 102, 241, 0.5);
 }
 
+.fb-main-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #1877F2;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 25px -5px rgba(24, 119, 242, 0.4);
+}
+
+.fb-main-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 35px -5px rgba(24, 119, 242, 0.5);
+    background: #166fe5;
+}
+
+.fb-main-btn .icon-container {
+    font-size: 1.8rem;
+}
+
+.fb-main-btn .btn-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
 .download-btn .icon-container {
     font-size: 1.8rem;
 }
